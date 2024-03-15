@@ -1,12 +1,13 @@
 from random import randint
 
-a = input("Enter the number of operations to generate: ")
+op_num = input("Enter the number of operations to generate: ")
 student_id = "2256327"
 def main():
     try:
         with open("result.txt", "w") as file:
             file.write(f"Student ID: {student_id}\n")
-            for n in range(int(a)):
+            file.write(f"Number of operations to generate: {op_num}\n")
+            for n in range(int(op_num)):
                 op = randint(3, 5)
                 numbers = [0]*op + [0]*(op-1)
                 operations = ['+', '-', '*', '/']
