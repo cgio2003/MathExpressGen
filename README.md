@@ -14,7 +14,7 @@ This script requires Python 3.x. Ensure that Python 3.x is installed on your sys
    - Navigate to the directory where the script is located.
    - Run the script using Python by executing the following command:
      ```
-     python arithmetic_expression_generator.py
+     python mathexpressgen.py
      ```
 3. **Input the Number of Operations**
    - When prompted, enter the number of arithmetic operations you wish to generate and evaluate.
